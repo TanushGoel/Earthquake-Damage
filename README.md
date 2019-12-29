@@ -49,7 +49,9 @@ Oversampling was also tried in the second notebook but had a deproved testing ac
 Pandas - 
 Numpy - 
 Matplotlib - 
-
+Seaborn - 
+Scikit-Learn - 
+Catboost - 
 
 ### Data
 [data](https://www.drivendata.org/competitions/57/nepal-earthquake/data/)
