@@ -1,5 +1,5 @@
 # Earthquake-Damage
-DrivenData competition - Richter's Predictor: Modeling Earthquake Damage - predicting the level of damage to buildings caused by the 2015 Gorkha earthquake in Nepal based on aspects of the building location and construction
+DrivenData competition - [Richter's Predictor: Modeling Earthquake Damage](https://www.drivendata.org/competitions/57/nepal-earthquake/) - predicting the level of damage to buildings caused by the 2015 Gorkha earthquake in Nepal based on aspects of the building location and construction
 
 - A categorical boosting (catboost) classifier that predicts the damage grade of a building as either 1, 2, or 3 given multiple categorical and binary features of the building
 
@@ -45,6 +45,11 @@ This method greatly increased the feature score determined through SelectKBest f
 
 Oversampling was also tried in the second notebook but had a deproved testing accuracy. 
 
-## Libraries
+### Libraries
+Pandas - 
+Numpy - 
+Matplotlib - 
 
-## Data
+
+### Data
+[data](https://www.drivendata.org/competitions/57/nepal-earthquake/data/)
