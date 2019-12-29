@@ -46,12 +46,12 @@ This method greatly increased the feature score determined through SelectKBest f
 Oversampling was also tried in the second notebook but had a deproved testing accuracy. 
 
 ### Libraries
-Pandas - 
-Numpy - 
-Matplotlib - 
-Seaborn - 
-Scikit-Learn - 
-Catboost - 
+    [Pandas](https://github.com/pandas-dev/pandas)
+    [Numpy](https://github.com/numpy/numpy)
+    [Matplotlib](https://github.com/matplotlib/matplotlib)
+    [Seaborn](https://github.com/mwaskom/seaborn)
+    [Scikit-Learn](https://github.com/scikit-learn/scikit-learn)
+    [Catboost](https://github.com/catboost/catboost)
 
 ### Data
 [data](https://www.drivendata.org/competitions/57/nepal-earthquake/data/)
