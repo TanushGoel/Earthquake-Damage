@@ -44,3 +44,7 @@ You can see that if a building has more superstructures, the number would be muc
 This method greatly increased the feature score determined through SelectKBest from sklearn's feature selection package. 
 
 Oversampling was also tried in the second notebook but had a deproved testing accuracy. 
+
+## Libraries
+
+## Data
