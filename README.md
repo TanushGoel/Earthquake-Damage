@@ -54,4 +54,4 @@ Oversampling was also tried in the second notebook but had a deproved testing ac
 - [Catboost](https://github.com/catboost/catboost)
 
 ### Data
-[data](https://www.drivendata.org/competitions/57/nepal-earthquake/data/)
+[all_datasets](https://www.drivendata.org/competitions/57/nepal-earthquake/data/)
