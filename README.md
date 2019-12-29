@@ -3,12 +3,15 @@ DrivenData competition - Richter's Predictor: Modeling Earthquake Damage - predi
 
 - A categorical boosting (catboost) classifier that predicts the damage grade of a building as either 1, 2, or 3 given multiple categorical and binary features of the building
 
-
+## Feature Handling - Binary --> Categorical
 There are many binary features in the datasets of this competition that would not be great inputs for the decision trees of the catboost model to train on. 
-Certain binary features such as "has_superstructure_adobe_mud" or "has_superstructure_mud_mortar_stone" or "has_superstructure_cement_mortar_brick" could be turned into a single categorical "superstructures" feature.
-Similarly, binary features such as "has_secondary_use_agriculture" or "has_secondary_use_industry" or "has_secondary_use_institution" can be turned into a single categorical "secondary" feature.
+- Certain binary features such as *"has_superstructure_adobe_mud"* or *"has_superstructure_mud_mortar_stone"* or *"has_superstructure_cement_mortar_brick"* could be turned into a single categorical *"superstructures"* feature.
+- Similarly, binary features such as *"has_secondary_use_agriculture"* or *"has_secondary_use_industry"* or *"has_secondary_use_institution"* can be turned into a single categorical *"secondary"* feature.
 
+## Notebooks
 The main difference between the 1st and 2nd notebooks is just how I tried to turn the many binary features into categorical features.
+
+
 The first notebook essentially checks if the building has the given superstructure or secondary feature (in which case the value of the feature is 1), and if it does have it, it will add the feature name to the end of a string that is later factorized into numerical values.
 
 For example,
