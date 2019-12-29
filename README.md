@@ -10,10 +10,10 @@ Similarly, binary features such as "has_secondary_use_agriculture" or "has_secon
 The main difference between the 1st and 2nd notebooks is just how I tried to turn the many binary features into categorical features.
 The first notebook essentially checks if the building has the given superstructure or secondary feature (in which case the value of the feature is 1), and if it does have it, it will add the feature name to the end of a string that is later factorized into numerical values.
 
-For example, building 1234:
-has_superstructure_adobe_mud: 1
-has_superstructure_mud_mortar_stone: 0
-has_superstructure_cement_mortar_brick: 1
+For example,
+    has_superstructure_adobe_mud: 1
+    has_superstructure_mud_mortar_stone: 0
+    has_superstructure_cement_mortar_brick: 1
 
 this specific combination of superstructures may have a factorized numerical value of say 9 (the factorized value depends on the strings factorized before it - but it simply tries to give different strings unique values)
 superstructures: "adobe_mud_cement_mortar_brick" --> 9
