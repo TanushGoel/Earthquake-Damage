@@ -1,11 +1,12 @@
 # Earthquake-Damage
 DrivenData competition - [Richter's Predictor: Modeling Earthquake Damage](https://www.drivendata.org/competitions/57/nepal-earthquake/) - predicting the level of damage to buildings caused by the 2015 Gorkha earthquake in Nepal based on aspects of the building location and construction
 
-A categorical boosting (catboost) classifier that predicts the damage grade of a building as either 1, 2, or 3 given multiple categorical and binary features of the building
+A categorical boosting (catboost) classifier that predicts the damage grade of a building as either 1, 2, or 3 given multiple categorical and binary features of the building.
+A random forest was also attempted, but achieved a lower accuracy than the catboost model. An ensemble of both models also resulted in a decreased accuracy.
 
 ## Feature Handling - Binary --> Categorical
 
-There are many binary features in the datasets of this competition that would not be great inputs for the decision trees of the catboost model to train on. 
+There are many binary features in the datasets of this competition that would not be great inputs for the decision trees of the catboost model or random forest to train on. 
 
 
 Certain binary features such as *"has_superstructure_adobe_mud"* or *"has_superstructure_mud_mortar_stone"* or *"has_superstructure_cement_mortar_brick"* could be turned into a single categorical *"superstructures"* feature.
