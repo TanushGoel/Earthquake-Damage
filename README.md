@@ -41,11 +41,11 @@ For example,
     - has_superstructure_mud_mortar_stone: 0
     - has_superstructure_cement_mortar_brick: 1
 
-I would make the adobe_mud superstructure append "10" to a string, mud_mortar_stone append "20", and have cement_mortar_brick append "30" if it has the superstructure - then turn the string into a numerical value.
+I would make the adobe_mud superstructure append "1" to a string, mud_mortar_stone append "2", and have cement_mortar_brick append "3" if it has the superstructure - then turn the string into a numerical value.
 
 You can see that if a building has more superstructures, the number would be much larger. On top of this, I guarantee that even if a certain combination seen in the testing set is not even seen in the training set, the model would still be able to gain a sense of what type of superstructure(s) it has. This method seems like a much more organized approach for turning binary features to categorical, instead of the original one where I gave random distinct numbers for every combination seen in the training set. 
 
-    - superstructures: "1030" -- > 1030
+    - superstructures: "13" -- > 13
   
 This method greatly increased the feature score determined through SelectKBest from sklearn's feature selection package. 
 
