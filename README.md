@@ -69,6 +69,8 @@ Following the 7.8 Mw Gorkha Earthquake on April 25, 2015, Nepal carried out a ma
 
 More can be found out at [National Planning Commission Nepal](https://www.npc.gov.np/en) and [Earthquake Gorkha](https://en.wikipedia.org/wiki/April_2015_Nepal_earthquake).
 
+### Features
+
 1) geo_level_1_id, geo_level_2_id, geo_level_3_id (type: int): geographic region in which building exists, from largest (level 1) to most specific sub-region (level 3). Possible values: level 1: 0-30, level 2: 0-1427, level 3: 0-12567.
 2) count_floors_pre_eq (type: int): number of floors in the building before the earthquake.
 3) age (type: int): age of the building in years.
