@@ -59,7 +59,7 @@ Oversampling was also tried in the second notebook but had a deproved testing ac
 - [Scikit-Learn](https://github.com/scikit-learn/scikit-learn)
 - [Catboost](https://github.com/catboost/catboost)
 
-### Data
+## Data
 [all_datasets](https://www.drivendata.org/competitions/57/nepal-earthquake/data/)
 
 1 represents low damage. 2 represents a medium amount of damage. 3 represents almost complete destruction. 
